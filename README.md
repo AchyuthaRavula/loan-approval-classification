@@ -1,7 +1,7 @@
 #  Loan Approval Classification using Apache Spark
 
 ##  Project Overview
-This project builds a **scalable loan approval prediction system** using **Apache Spark (PySpark)** to analyze large-scale financial data and predict whether a loan application will be **approved or rejected**.
+This project builds a **scalable loan approval Classification system** using **Apache Spark (PySpark)** to analyze large-scale financial data and predict whether a loan application will be **approved or rejected**.
 
 The project demonstrates **end-to-end big data analytics**, covering data exploration, feature engineering, and machine learning modeling using Spark MLlib.
 
