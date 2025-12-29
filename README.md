@@ -20,6 +20,7 @@ This project highlights the application of **big data processing, distributed ma
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/5c486e68-1b45-4d6f-99b1-a14a79530559" />
 
+
 This diagram illustrates the end-to-end big data pipeline implemented in this project, from data ingestion to model evaluation using Apache Spark MLlib.
 ---
 ##  Dataset
