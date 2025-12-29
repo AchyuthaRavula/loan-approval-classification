@@ -16,7 +16,12 @@ Two classification models were implemented and evaluated:
 This project highlights the application of **big data processing, distributed machine learning, and model evaluation** for real-world financial decision-making.
 
 ---
+## Project Workflow
 
+![Loan Approval Classification Workflow](<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/5c486e68-1b45-4d6f-99b1-a14a79530559" />)
+
+This diagram illustrates the end-to-end big data pipeline implemented in this project, from data ingestion to model evaluation using Apache Spark MLlib.
+---
 ##  Dataset
 - **Source:** [Kaggle Dataset](https://www.kaggle.com/datasets/taweilo/loan-approval-classification-data)
 - **Records:** **45,000+ loan applications**  
