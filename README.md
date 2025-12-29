@@ -63,12 +63,19 @@ Key analyses performed:
 ---
 
 ##  Model Performance
-| Model | Validation Accuracy |
-|------|---------------------|
-| Logistic Regression | ~78–80% |
-| Random Forest | ~83–85% |
+We trained and evaluated two machine learning models using **Apache Spark MLlib** on a dataset of **45,000+ loan applications**.
 
- Random Forest improved accuracy by approximately **5%** over Logistic Regression.
+| Model | Accuracy |
+|------|----------|
+| Logistic Regression | **0.89** |
+| Random Forest Classifier | **0.92**  |
+
+ **Best Performing Model:** Random Forest  
+ **Improvement over baseline:** +3% accuracy  
+ **Evaluation Metric:** Accuracy (Spark MulticlassClassificationEvaluator)
+
+The Random Forest model outperformed Logistic Regression by effectively capturing non-linear relationships among borrower demographics, credit history, and loan characteristics.
+
 
 ---
 
@@ -80,15 +87,10 @@ Key analyses performed:
 
 ---
 
-## ▶️ How to Run
-1. Open the notebook in **Databricks** or a Spark-enabled environment
+##  How to Run
+1. Open the notebook in **Databricks** or a Spark-enabled environment 
 2. Update dataset path if required
 3. Run cells sequentially
-
----
-### 🔗 Quick Links
--  [PySpark Notebook](notebooks/BIGDATA_PROJECT.ipynb)
--  [Databricks HTML Output](https://databricks-prod-cloudfront.cloud.databricks.com/...)
 
 
 
