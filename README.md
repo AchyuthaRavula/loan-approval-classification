@@ -8,7 +8,7 @@ The project demonstrates **end-to-end big data analytics**, covering data explor
 ---
 
 ##  Dataset
-- **Source:** Kaggle – Loan Approval Classification Dataset  
+- **Source:** [Kaggle Dataset](https://www.kaggle.com/datasets/taweilo/loan-approval-classification-data)
 - **Records:** **45,000+ loan applications**  
 - **Features:** **14 variables** (demographic, financial, and loan-related)  
 - **Target Variable:** `loan_status` (Approved / Rejected)
@@ -83,14 +83,12 @@ Key analyses performed:
 ##  Repository Structure
 loan-approval-classification/
 │
-├── data/ # Dataset placeholder
-├── notebooks/ # PySpark notebook
-├── images/ # Key visualizations
-├── docs/ # Documentation
-├── README.md
-└── LICENSE
-
-
+├── data/ # Dataset placeholder/
+├── notebooks/ # PySpark notebook (EDA + ML models)/
+├── images/ # Key visualizations used in README/
+├── docs/ # Project documentation/
+├── README.md # Project overview/
+└── LICENSE # MIT License/
 ---
 
 ## ▶️ How to Run
@@ -99,6 +97,10 @@ loan-approval-classification/
 3. Run cells sequentially
 
 ---
+### 🔗 Quick Links
+-  [PySpark Notebook](notebooks/BIGDATA_PROJECT.ipynb)
+-  [Databricks HTML Output](https://databricks-prod-cloudfront.cloud.databricks.com/...)
+
 
 
 
