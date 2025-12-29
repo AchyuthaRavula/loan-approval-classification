@@ -80,17 +80,6 @@ Key analyses performed:
 
 ---
 
-##  Repository Structure
-loan-approval-classification/
-│
-├── data/ # Dataset placeholder/
-├── notebooks/ # PySpark notebook (EDA + ML models)/
-├── images/ # Key visualizations used in README/
-├── docs/ # Project documentation/
-├── README.md # Project overview/
-└── LICENSE # MIT License/
----
-
 ## ▶️ How to Run
 1. Open the notebook in **Databricks** or a Spark-enabled environment
 2. Update dataset path if required
